@@ -64,6 +64,7 @@ header li a {
 #presentation {
   background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
   background-size: cover;
+  min-height: 100vh;
   padding: 10px 0px 100px 0;
 }
 
