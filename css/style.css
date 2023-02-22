@@ -139,7 +139,7 @@ h4 {
 }
 
 /* ******************* RESPONSIVE ******************** */
-@media screen and (max-width: 983px) {
+@media screen and (max-width: 452px) {
   #presentation {
     background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
     padding: 10px 0px 10px 0;
@@ -157,8 +157,8 @@ h4 {
 
   .corps-photo {
     display: flex;
-    justify-content: space-between;
-    padding: 20px 10%;
+    justify-content: center;
+    padding: 20px 20px;
   }
 
   .content-photo {
@@ -205,8 +205,56 @@ h4 {
 
   .corps-photo {
     display: flex;
-    justify-content: space-between;
-    padding: 5px 5px;
+    justify-content: center;
+    padding: 20px 20px;
+  }
+
+  .content-photo {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 5px;
+    font-weight: 100;
+  }
+
+  .content-photo img {
+    border-radius: 60% 40% 65% 35% / 27% 54% 46% 73%;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+    width: 38px;
+    height: 43px;
+  }
+
+  .titre-photo {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .box {
+    width: 38px;
+    height: 43px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #presentation {
+    background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+    padding: 10px 0px 10px 0;
+  }
+  #texteIntro {
+    padding: 0px 20%;
+  }
+
+  h4 {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin: 5px;
+    font-size: 0.7em;
+  }
+
+  .corps-photo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
   }
 
   .content-photo {
