@@ -111,3 +111,86 @@ p {
   padding: 15px;
   margin: 0px;
 }
+
+/* **********RESPONSIVE********* */
+
+@media screen and (max-width: 452px) {
+  .box {
+    width: 273px;
+    height: 312px;
+  }
+  .global-photo {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+  }
+
+  .content-photo {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+  }
+
+  .content-photo img {
+    border-radius: 60% 40% 65% 35% / 27% 54% 46% 73%;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+    height: 273px;
+    width: 203px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .box {
+    width: 273px;
+    height: 312px;
+  }
+  .global-photo {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+  }
+
+  .content-photo {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+  }
+
+  .content-photo img {
+    border-radius: 60% 40% 65% 35% / 27% 54% 46% 73%;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+    height: 273px;
+    width: 203px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .box {
+    width: 83px;
+    height: 53px;
+  }
+  .global-photo {
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+  }
+
+  .content-photo {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+  }
+
+  .content-photo img {
+    border-radius: 60% 40% 65% 35% / 27% 54% 46% 73%;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+    height: 62px;
+    width: 54px;
+  }
+}
